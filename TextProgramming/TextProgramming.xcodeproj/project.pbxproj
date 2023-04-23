@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E353C2A292914C5002FD462 /* TPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C29292914C5002FD462 /* TPAppDelegate.m */; };
+		6E353C30292914C5002FD462 /* TPMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C2F292914C5002FD462 /* TPMainController.m */; };
+		6E353C33292914C5002FD462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E353C31292914C5002FD462 /* Main.storyboard */; };
+		6E353C35292914C8002FD462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E353C34292914C8002FD462 /* Assets.xcassets */; };
+		6E353C38292914C8002FD462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E353C36292914C8002FD462 /* LaunchScreen.storyboard */; };
+		6E353C3B292914C8002FD462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C3A292914C8002FD462 /* main.m */; };
+		6E353C4329291B6F002FD462 /* TPSelectedStringController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C4229291B6F002FD462 /* TPSelectedStringController.m */; };
+		6E353C5F29291D63002FD462 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C4629291D62002FD462 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		6E353C6029291D63002FD462 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C4F29291D62002FD462 /* ViewController+MASAdditions.m */; };
+		6E353C6129291D63002FD462 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C5329291D62002FD462 /* MASCompositeConstraint.m */; };
+		6E353C6229291D63002FD462 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C5429291D62002FD462 /* MASConstraintMaker.m */; };
+		6E353C6329291D63002FD462 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C5529291D62002FD462 /* MASLayoutConstraint.m */; };
+		6E353C6429291D63002FD462 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C5629291D62002FD462 /* NSArray+MASAdditions.m */; };
+		6E353C6529291D63002FD462 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C5729291D62002FD462 /* View+MASAdditions.m */; };
+		6E353C6629291D63002FD462 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C5A29291D62002FD462 /* MASConstraint.m */; };
+		6E353C6729291D63002FD462 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C5C29291D62002FD462 /* MASViewConstraint.m */; };
+		6E353C6829291D63002FD462 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C5D29291D62002FD462 /* MASViewAttribute.m */; };
+		6E353C6C292B1882002FD462 /* TPWebViewKeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C6B292B1882002FD462 /* TPWebViewKeyboardController.m */; };
+		6E353C6E292B1E0A002FD462 /* TPWebKeyBoard.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E353C6D292B1E09002FD462 /* TPWebKeyBoard.html */; };
+		6E353C71292B28B2002FD462 /* TPKeyboardNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E353C70292B28B2002FD462 /* TPKeyboardNotificationController.m */; };
+		6E39A83B292CA39F0042847E /* TPCopyCutPasteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E39A83A292CA39F0042847E /* TPCopyCutPasteController.m */; };
+		6E39A842292DCD840042847E /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E39A83F292DCD840042847E /* UIImage+Extension.m */; };
+		6E39A846292E00850042847E /* TPInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E39A845292E00850042847E /* TPInputViewController.m */; };
+		6EE2B82A293DD34A0041416D /* TPRegularController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE2B829293DD34A0041416D /* TPRegularController.m */; };
+		6EE2B82D293DDD540041416D /* TPSimpleTextInputController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE2B82C293DDD540041416D /* TPSimpleTextInputController.m */; };
+		6EE2B830293DDD870041416D /* TPSimpleTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE2B82F293DDD870041416D /* TPSimpleTextInputView.m */; };
+		6EF7C2ED292F095E007D17CB /* TPFontFamilyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF7C2EC292F095E007D17CB /* TPFontFamilyController.m */; };
+		6EF7C2F0292F5A69007D17CB /* TPFontTraitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF7C2EF292F5A69007D17CB /* TPFontTraitController.m */; };
+		6EF7C2F3292F7417007D17CB /* TPSingleTextFlowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF7C2F2292F7417007D17CB /* TPSingleTextFlowController.m */; };
+		6EF7C2F5292F75F8007D17CB /* 《少年歌行》.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6EF7C2F4292F75F8007D17CB /* 《少年歌行》.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E353C25292914C5002FD462 /* TextProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E353C28292914C5002FD462 /* TPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPAppDelegate.h; sourceTree = "<group>"; };
+		6E353C29292914C5002FD462 /* TPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPAppDelegate.m; sourceTree = "<group>"; };
+		6E353C2E292914C5002FD462 /* TPMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPMainController.h; sourceTree = "<group>"; };
+		6E353C2F292914C5002FD462 /* TPMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPMainController.m; sourceTree = "<group>"; };
+		6E353C32292914C5002FD462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E353C34292914C8002FD462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E353C37292914C8002FD462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E353C39292914C8002FD462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E353C3A292914C8002FD462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E353C4129291B6F002FD462 /* TPSelectedStringController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPSelectedStringController.h; sourceTree = "<group>"; };
+		6E353C4229291B6F002FD462 /* TPSelectedStringController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPSelectedStringController.m; sourceTree = "<group>"; };
+		6E353C4529291D62002FD462 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		6E353C4629291D62002FD462 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		6E353C4729291D62002FD462 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		6E353C4829291D62002FD462 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		6E353C4929291D62002FD462 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6E353C4A29291D62002FD462 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		6E353C4B29291D62002FD462 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		6E353C4C29291D62002FD462 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		6E353C4D29291D62002FD462 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		6E353C4E29291D62002FD462 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		6E353C4F29291D62002FD462 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		6E353C5029291D62002FD462 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		6E353C5129291D62002FD462 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		6E353C5229291D62002FD462 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		6E353C5329291D62002FD462 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		6E353C5429291D62002FD462 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		6E353C5529291D62002FD462 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6E353C5629291D62002FD462 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		6E353C5729291D62002FD462 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		6E353C5829291D62002FD462 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6E353C5929291D62002FD462 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		6E353C5A29291D62002FD462 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		6E353C5B29291D62002FD462 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		6E353C5C29291D62002FD462 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		6E353C5D29291D62002FD462 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		6E353C5E29291D62002FD462 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E353C6A292B1882002FD462 /* TPWebViewKeyboardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPWebViewKeyboardController.h; sourceTree = "<group>"; };
+		6E353C6B292B1882002FD462 /* TPWebViewKeyboardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPWebViewKeyboardController.m; sourceTree = "<group>"; };
+		6E353C6D292B1E09002FD462 /* TPWebKeyBoard.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TPWebKeyBoard.html; sourceTree = "<group>"; };
+		6E353C6F292B28B2002FD462 /* TPKeyboardNotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPKeyboardNotificationController.h; sourceTree = "<group>"; };
+		6E353C70292B28B2002FD462 /* TPKeyboardNotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardNotificationController.m; sourceTree = "<group>"; };
+		6E39A839292CA39F0042847E /* TPCopyCutPasteController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPCopyCutPasteController.h; sourceTree = "<group>"; };
+		6E39A83A292CA39F0042847E /* TPCopyCutPasteController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPCopyCutPasteController.m; sourceTree = "<group>"; };
+		6E39A83D292DCD840042847E /* UIKitExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitExtension.h; sourceTree = "<group>"; };
+		6E39A83F292DCD840042847E /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		6E39A840292DCD840042847E /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		6E39A844292E00850042847E /* TPInputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPInputViewController.h; sourceTree = "<group>"; };
+		6E39A845292E00850042847E /* TPInputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPInputViewController.m; sourceTree = "<group>"; };
+		6EE2B828293DD34A0041416D /* TPRegularController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPRegularController.h; sourceTree = "<group>"; };
+		6EE2B829293DD34A0041416D /* TPRegularController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPRegularController.m; sourceTree = "<group>"; };
+		6EE2B82B293DDD540041416D /* TPSimpleTextInputController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPSimpleTextInputController.h; sourceTree = "<group>"; };
+		6EE2B82C293DDD540041416D /* TPSimpleTextInputController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPSimpleTextInputController.m; sourceTree = "<group>"; };
+		6EE2B82E293DDD870041416D /* TPSimpleTextInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPSimpleTextInputView.h; sourceTree = "<group>"; };
+		6EE2B82F293DDD870041416D /* TPSimpleTextInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPSimpleTextInputView.m; sourceTree = "<group>"; };
+		6EF7C2EB292F095E007D17CB /* TPFontFamilyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPFontFamilyController.h; sourceTree = "<group>"; };
+		6EF7C2EC292F095E007D17CB /* TPFontFamilyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPFontFamilyController.m; sourceTree = "<group>"; };
+		6EF7C2EE292F5A69007D17CB /* TPFontTraitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPFontTraitController.h; sourceTree = "<group>"; };
+		6EF7C2EF292F5A69007D17CB /* TPFontTraitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPFontTraitController.m; sourceTree = "<group>"; };
+		6EF7C2F1292F7417007D17CB /* TPSingleTextFlowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPSingleTextFlowController.h; sourceTree = "<group>"; };
+		6EF7C2F2292F7417007D17CB /* TPSingleTextFlowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPSingleTextFlowController.m; sourceTree = "<group>"; };
+		6EF7C2F4292F75F8007D17CB /* 《少年歌行》.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "《少年歌行》.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E353C22292914C5002FD462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E353C1C292914C5002FD462 = {
+			isa = PBXGroup;
+			children = (
+				6E353C27292914C5002FD462 /* TextProgramming */,
+				6E353C26292914C5002FD462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E353C26292914C5002FD462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E353C25292914C5002FD462 /* TextProgramming.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E353C27292914C5002FD462 /* TextProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				6EF7C2F4292F75F8007D17CB /* 《少年歌行》.txt */,
+				6E353C28292914C5002FD462 /* TPAppDelegate.h */,
+				6E353C29292914C5002FD462 /* TPAppDelegate.m */,
+				6E39A83C292DCD840042847E /* UIKitExtension */,
+				6E353C4429291D62002FD462 /* Masonry */,
+				6E353C2E292914C5002FD462 /* TPMainController.h */,
+				6E353C2F292914C5002FD462 /* TPMainController.m */,
+				6E353C4129291B6F002FD462 /* TPSelectedStringController.h */,
+				6E353C4229291B6F002FD462 /* TPSelectedStringController.m */,
+				6E353C6A292B1882002FD462 /* TPWebViewKeyboardController.h */,
+				6E353C6B292B1882002FD462 /* TPWebViewKeyboardController.m */,
+				6E353C6F292B28B2002FD462 /* TPKeyboardNotificationController.h */,
+				6E353C70292B28B2002FD462 /* TPKeyboardNotificationController.m */,
+				6E39A839292CA39F0042847E /* TPCopyCutPasteController.h */,
+				6E39A83A292CA39F0042847E /* TPCopyCutPasteController.m */,
+				6E39A844292E00850042847E /* TPInputViewController.h */,
+				6E39A845292E00850042847E /* TPInputViewController.m */,
+				6EF7C2EB292F095E007D17CB /* TPFontFamilyController.h */,
+				6EF7C2EC292F095E007D17CB /* TPFontFamilyController.m */,
+				6EF7C2EE292F5A69007D17CB /* TPFontTraitController.h */,
+				6EF7C2EF292F5A69007D17CB /* TPFontTraitController.m */,
+				6EF7C2F1292F7417007D17CB /* TPSingleTextFlowController.h */,
+				6EF7C2F2292F7417007D17CB /* TPSingleTextFlowController.m */,
+				6EE2B828293DD34A0041416D /* TPRegularController.h */,
+				6EE2B829293DD34A0041416D /* TPRegularController.m */,
+				6EE2B82B293DDD540041416D /* TPSimpleTextInputController.h */,
+				6EE2B82C293DDD540041416D /* TPSimpleTextInputController.m */,
+				6EE2B82E293DDD870041416D /* TPSimpleTextInputView.h */,
+				6EE2B82F293DDD870041416D /* TPSimpleTextInputView.m */,
+				6E353C31292914C5002FD462 /* Main.storyboard */,
+				6E353C34292914C8002FD462 /* Assets.xcassets */,
+				6E353C36292914C8002FD462 /* LaunchScreen.storyboard */,
+				6E353C39292914C8002FD462 /* Info.plist */,
+				6E353C3A292914C8002FD462 /* main.m */,
+				6E353C6D292B1E09002FD462 /* TPWebKeyBoard.html */,
+			);
+			path = TextProgramming;
+			sourceTree = "<group>";
+		};
+		6E353C4429291D62002FD462 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				6E353C4529291D62002FD462 /* MASCompositeConstraint.h */,
+				6E353C4629291D62002FD462 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				6E353C4729291D62002FD462 /* MASConstraint+Private.h */,
+				6E353C4829291D62002FD462 /* MASLayoutConstraint.h */,
+				6E353C4929291D62002FD462 /* NSArray+MASShorthandAdditions.h */,
+				6E353C4A29291D62002FD462 /* MASConstraintMaker.h */,
+				6E353C4B29291D62002FD462 /* View+MASAdditions.h */,
+				6E353C4C29291D62002FD462 /* NSArray+MASAdditions.h */,
+				6E353C4D29291D62002FD462 /* MASUtilities.h */,
+				6E353C4E29291D62002FD462 /* MASViewAttribute.h */,
+				6E353C4F29291D62002FD462 /* ViewController+MASAdditions.m */,
+				6E353C5029291D62002FD462 /* MASViewConstraint.h */,
+				6E353C5129291D62002FD462 /* MASConstraint.h */,
+				6E353C5229291D62002FD462 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				6E353C5329291D62002FD462 /* MASCompositeConstraint.m */,
+				6E353C5429291D62002FD462 /* MASConstraintMaker.m */,
+				6E353C5529291D62002FD462 /* MASLayoutConstraint.m */,
+				6E353C5629291D62002FD462 /* NSArray+MASAdditions.m */,
+				6E353C5729291D62002FD462 /* View+MASAdditions.m */,
+				6E353C5829291D62002FD462 /* View+MASShorthandAdditions.h */,
+				6E353C5929291D62002FD462 /* Masonry.h */,
+				6E353C5A29291D62002FD462 /* MASConstraint.m */,
+				6E353C5B29291D62002FD462 /* ViewController+MASAdditions.h */,
+				6E353C5C29291D62002FD462 /* MASViewConstraint.m */,
+				6E353C5D29291D62002FD462 /* MASViewAttribute.m */,
+				6E353C5E29291D62002FD462 /* Info.plist */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		6E39A83C292DCD840042847E /* UIKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6E39A83D292DCD840042847E /* UIKitExtension.h */,
+				6E39A83F292DCD840042847E /* UIImage+Extension.m */,
+				6E39A840292DCD840042847E /* UIImage+Extension.h */,
+			);
+			path = UIKitExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E353C24292914C5002FD462 /* TextProgramming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E353C3E292914C8002FD462 /* Build configuration list for PBXNativeTarget "TextProgramming" */;
+			buildPhases = (
+				6E353C21292914C5002FD462 /* Sources */,
+				6E353C22292914C5002FD462 /* Frameworks */,
+				6E353C23292914C5002FD462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextProgramming;
+			productName = TextProgramming;
+			productReference = 6E353C25292914C5002FD462 /* TextProgramming.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E353C1D292914C5002FD462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					6E353C24292914C5002FD462 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 6E353C20292914C5002FD462 /* Build configuration list for PBXProject "TextProgramming" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E353C1C292914C5002FD462;
+			productRefGroup = 6E353C26292914C5002FD462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E353C24292914C5002FD462 /* TextProgramming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E353C23292914C5002FD462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF7C2F5292F75F8007D17CB /* 《少年歌行》.txt in Resources */,
+				6E353C6E292B1E0A002FD462 /* TPWebKeyBoard.html in Resources */,
+				6E353C38292914C8002FD462 /* LaunchScreen.storyboard in Resources */,
+				6E353C35292914C8002FD462 /* Assets.xcassets in Resources */,
+				6E353C33292914C5002FD462 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E353C21292914C5002FD462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E353C6729291D63002FD462 /* MASViewConstraint.m in Sources */,
+				6E353C71292B28B2002FD462 /* TPKeyboardNotificationController.m in Sources */,
+				6E39A83B292CA39F0042847E /* TPCopyCutPasteController.m in Sources */,
+				6E353C6829291D63002FD462 /* MASViewAttribute.m in Sources */,
+				6EF7C2ED292F095E007D17CB /* TPFontFamilyController.m in Sources */,
+				6E353C30292914C5002FD462 /* TPMainController.m in Sources */,
+				6E353C2A292914C5002FD462 /* TPAppDelegate.m in Sources */,
+				6E353C6429291D63002FD462 /* NSArray+MASAdditions.m in Sources */,
+				6E353C6029291D63002FD462 /* ViewController+MASAdditions.m in Sources */,
+				6E353C6129291D63002FD462 /* MASCompositeConstraint.m in Sources */,
+				6E353C3B292914C8002FD462 /* main.m in Sources */,
+				6E353C6529291D63002FD462 /* View+MASAdditions.m in Sources */,
+				6E353C6229291D63002FD462 /* MASConstraintMaker.m in Sources */,
+				6E353C6629291D63002FD462 /* MASConstraint.m in Sources */,
+				6E353C5F29291D63002FD462 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				6EE2B82D293DDD540041416D /* TPSimpleTextInputController.m in Sources */,
+				6EF7C2F0292F5A69007D17CB /* TPFontTraitController.m in Sources */,
+				6E353C6329291D63002FD462 /* MASLayoutConstraint.m in Sources */,
+				6EE2B830293DDD870041416D /* TPSimpleTextInputView.m in Sources */,
+				6E39A846292E00850042847E /* TPInputViewController.m in Sources */,
+				6EF7C2F3292F7417007D17CB /* TPSingleTextFlowController.m in Sources */,
+				6E39A842292DCD840042847E /* UIImage+Extension.m in Sources */,
+				6E353C6C292B1882002FD462 /* TPWebViewKeyboardController.m in Sources */,
+				6EE2B82A293DD34A0041416D /* TPRegularController.m in Sources */,
+				6E353C4329291B6F002FD462 /* TPSelectedStringController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E353C31292914C5002FD462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E353C32292914C5002FD462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E353C36292914C8002FD462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E353C37292914C8002FD462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E353C3C292914C8002FD462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E353C3D292914C8002FD462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E353C3F292914C8002FD462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCL3BJXWK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextProgramming/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.TextProgramming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E353C40292914C8002FD462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCL3BJXWK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextProgramming/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.TextProgramming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E353C20292914C5002FD462 /* Build configuration list for PBXProject "TextProgramming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E353C3C292914C8002FD462 /* Debug */,
+				6E353C3D292914C8002FD462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E353C3E292914C8002FD462 /* Build configuration list for PBXNativeTarget "TextProgramming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E353C3F292914C8002FD462 /* Debug */,
+				6E353C40292914C8002FD462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E353C1D292914C5002FD462 /* Project object */;
+}
